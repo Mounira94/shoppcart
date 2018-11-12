@@ -1,0 +1,122 @@
+body
+{
+    background-color: teal; 
+}
+.main
+{
+    margin:100px 200px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.shoppCard
+{
+    display: flex;
+    flex-direction: column;    
+}
+.pricecalc
+{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+#sum
+{
+    color: teal; 
+}
+.pricecalc-text
+{
+    color: slategray;
+    margin-left: 50px;
+    font-size: 30px; 
+    
+    
+}
+.img
+{
+    width: 100px;
+    height: 100px;
+margin-left: 30px;
+}
+.articles
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+.article
+{
+    display: flex; 
+    margin-left: 50px; 
+    border-top:1px solid silver;
+}
+.article-description
+{
+    width: 250px;
+    
+}
+.article-notification
+{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.fas
+{
+    color: silver;
+}
+
+.article-text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.article-category
+{
+    font-size: 15px;
+    color: teal; 
+    font-weight: bold;
+}
+.article-color
+{
+    font-size: 15px;
+    color: slategrey;
+    font-weight: bold;
+}
+.article-number
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nbr-article
+{
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 2px;
+    background-color: rgb(187, 186, 186);
+color: rgb(68, 67, 67);
+}
+.count
+{
+    color: slategrey;
+}
+.article-price
+{
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.price
+{
+    font-size: 15px;
+    color: slategrey;
+}
+.heartcolor
+{
+    color: red;
+}
